@@ -12,7 +12,7 @@ var arrowKeys = {
   40: false,  // DOWN
   38: false,  // UP
   39: false, // RIGHT
-  37: false, // LEFT
+  37: false // LEFT
 };
 
 var ourCanvas = document.getElementById('canvasToDraw');
