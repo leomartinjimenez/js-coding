@@ -184,11 +184,11 @@ function moveWolf(ourEvent) {
         wolf.currentY = wolf.currentY + AddMovement; // DOWN
         // The rest of animals are moving depending on the wolf movements
         //----------------------------------------
-        pig.currentX = pig.currentX - AddMovement;  // far/close pig
+        pig.currentX = pig.currentX + AddMovement;  // far/close pig
         pig.currentY = pig.currentY - AddMovement; // far/close pig
-        chicken.currentX = chicken.currentX - AddMovement;  // far/close chicken
+        chicken.currentX = chicken.currentX + AddMovement;  // far/close chicken
         chicken.currentY = chicken.currentY - AddMovement; // far/close chicken
-        cow.currentX = cow.currentX - AddMovement;  // far/close cow
+        cow.currentX = cow.currentX + AddMovement;  // far/close cow
         cow.currentY = cow.currentY - AddMovement; // far/close cow
         drawOnPaper();
         console.log('tecla Arrow DOWN-LEFT');
