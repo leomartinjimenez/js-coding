@@ -21,7 +21,7 @@ var currentX = 150;
 var currentY = 150;
 var drawMovement = 5;
 var mouseClickState = 0;
-var currentKeyIsTyping = 0; // tecla que actualmente se esta pulsando
+var currentKeyIsPressed = 0; // tecla que actualmente se esta pulsando
 var xCanvasStart = 150;
 var yCanvasStart = 150;
 var x; // guarda coordenada x
