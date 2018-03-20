@@ -38,7 +38,7 @@ var cow = {
   url: 'cow.png',
   loadOK: false,
   currentX: randomNumber(1, 5) * 80,
-  currentY: randomNumber(1, 6) * 80
+  currentY: randomNumber(1, 5) * 80
 };
 cow.image = new Image(); // To add the object image into the var cow
 cow.image.src = cow.url;
@@ -48,7 +48,7 @@ var pig = {
   url: 'pig.png',
   loadOK: false,
   currentX: randomNumber(1, 5) * 80,
-  currentY: randomNumber(1, 6) * 80
+  currentY: randomNumber(1, 5) * 80
 };
 pig.image = new Image(); // To add the object image into the var cow
 pig.image.src = pig.url;
@@ -57,8 +57,8 @@ pig.image.addEventListener('load', loadPigs);
 var chicken = {
   url: 'chicken.png',
   loadOK: false,
-  currentX: randomNumber(80, 420),
-  currentY: randomNumber(80, 420)
+  currentX: randomNumber(1, 5) * 80,
+  currentY: randomNumber(1, 5) * 80
 };
 chicken.image = new Image(); // To add the object image into the var cow
 chicken.image.src = chicken.url;
