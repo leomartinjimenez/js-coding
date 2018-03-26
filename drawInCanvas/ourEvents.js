@@ -1,8 +1,7 @@
 /**
  * @Date:   2018-03-14T10:23:31+02:00
- * @Last modified time: 2018-03-26T10:11:33+02:00
- * @Author: Leonardo Martin Jimenez
- * @Email: leomartinjimenez@gmail.com
+ * @Last modified time: 2018-03-26T14:11:02+02:00
+ * @Author: leomartinjimenez
  */
 
 //alert('funcionando');
