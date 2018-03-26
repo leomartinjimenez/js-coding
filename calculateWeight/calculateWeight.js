@@ -1,4 +1,9 @@
-//alert('hola amigo prueba');
+/**
+ * @Date:   2018-03-14T10:23:31+02:00
+ * @Last modified time: 2018-03-26T09:43:19+02:00
+ * Author: Leonardo Martin Jimenez
+ * Email: leomartinjimenez@gmail.com
+ */
 
 var gTierra = 9.8;
 var gMarte = 3.7;
