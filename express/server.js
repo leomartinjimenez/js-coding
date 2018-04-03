@@ -1,8 +1,7 @@
 /**
  * @Date:   2018-03-26T13:51:51+02:00
- * @Last modified time: 2018-03-26T14:02:34+02:00
- * @Author: Leonardo Martin Jimenez
- * @Email: leomartinjimenez@gmail.com
+ * @Last modified time: 2018-03-26T14:18:46+02:00
+ * @Author: leomartinjimenez
  */
 
 var express = require('express'); // Get the library

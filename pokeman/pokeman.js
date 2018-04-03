@@ -1,8 +1,7 @@
 /**
  * @Date:   2018-03-24T00:37:31+02:00
  * @Last modified time: 2018-03-26T10:12:03+02:00
- * @Author: Leonardo Martin Jimenez
- * @Email: leomartinjimenez@gmail.com
+ * @Author: leomartinjimenez
  */
 
 class Pokeman {
