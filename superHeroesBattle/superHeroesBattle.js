@@ -36,15 +36,19 @@ while ( bothAreAlive() ) {
 	if (hitGoku > hitSuperman) {
 		// Goku attacks
 		console.log('Goku attacks Superman --> Hit = ' + hitGoku);
+		document.write('Goku attacks Superman --> Hit = ' + hitGoku);
 		lifeSuperman -= hitGoku;
 		// lifeSuperman = lifeSuperman - hitGoku;
 		console.log('-. SUPERMAN has the current life: ' + lifeSuperman);
+		document.write('-. SUPERMAN has the current life: ' + lifeSuperman);
 	} else {
 		// Superman attacks
 		console.log('Superman attacks Goku --> Hit = ' + hitSuperman);
+		document.write('Superman attacks Goku --> Hit = ' + hitSuperman);
 		lifeGoku -= hitSuperman;
 		// lifeGoku = lifeGoku - hitSuperman;
 		console.log('-. GOKU has the current life: ' + lifeGoku);
+		document.write('-. GOKU has the current life: ' + lifeGoku);
 	}
 	
 }
