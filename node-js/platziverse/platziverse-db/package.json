@@ -1,0 +1,22 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A Simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leomartinjimenez/js-coding"
+  },
+  "author": "Leo Martin Jimenez <leomartinjimenez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leomartinjimenez/js-coding/node-js-coding/platziverse/issues"
+  },
+  "homepage": "https://github.com/leomartinjimenez/js-coding/node-js-coding/platziverse#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}

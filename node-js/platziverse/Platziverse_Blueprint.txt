@@ -1,0 +1,4 @@
+Componentes:
+-platziversedb (Modulo): Comunicación con la Base de Datos. Aquí almacenaremos los componentes y las métricas que van a estar almacenando la información de la aplicación. Cada vez que ingrese información en tiempo real se almacenara mediante este modulo. También enviara información (en demanda) cada vez que se consulte la API.
+-Agent (Agente de monitoreo): Definimos las métricas que queremos monitorear y de manera real-time. A través de MQTT entregaremos la información por dos canales de comunicación web (para mostrarlas) DB para guardarlas.
+-Servidor (API): cargaremos las primeras 20 métricas para dibujar en pantalla una gráfica y después actualizarla de manera real-time. La conexión con el servidor web se hará mediante proxy para autenticación y tokens de JSON (JWT).
